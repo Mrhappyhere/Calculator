@@ -1,0 +1,146 @@
+    body {
+    margin: 0;
+    padding: 0;
+    line-height: 0.5;
+    background: rgb(44, 44, 44);
+    font-family: sans-serif;
+    box-align: center;
+}
+
+.cal {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: 0.25px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#del {
+    height: 55;
+    width: 85;
+    font-size: 25;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+#clr {
+    height: 55;
+    width: 85;
+    font-size: 25;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+#equal {
+    height: 55;
+    width: 116;
+    font-weight: 600;
+}
+
+#ans {
+    border: none;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 242;
+    font-size: 30;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    height: 55;
+    padding-top: -1;
+    margin: 1.5px;
+    border: 0;
+    border: none;
+    color: rgb(0, 0, 0);
+}
+
+.btn {
+    width: 55;
+    height: 55;
+    padding-top: -1;
+    font-size: 30;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: none;
+    background: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: 700;
+    border: 0;
+    border-radius: 10px;
+    margin: 1.5;
+    transition: 0.25px;
+    cursor: pointer;
+}
+
+h1 {
+    margin-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 600px;
+    font-family: monospace;
+    font-size: 20;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    text-align: center;
+}
+
+.btn:hover {
+    background: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.footer {
+    visibility: hidden;
+    color: "transparent"
+}
+
+@media only screen and (max-device-width: 600px) {
+    h1 {
+        width: auto;
+        margin: auto;
+        margin-top: 25px;
+        padding-bottom: 30px;
+        font-size: 2em;
+        text-align: center;
+    }
+    h2 {
+        visibility: hidden;
+        color: "transparent"
+    }
+    .cal {
+        width: 70%;
+        position: relative;
+        height: auto;
+        box-sizing: content-box;
+        align-content: center;
+        margin-top: 300px;
+    }
+    .footer {
+        visibility: visible;
+        border: none;
+        background: transparent;
+        border-radius: 10px;
+        width: 242;
+        height: 60;
+        font-size: 20;
+        font-family: monospace;
+        font-weight: 300;
+        text-align: center;
+        border: none;
+        color: rgb(0, 0, 0);
+    }
+    .btn:active {
+        background-color: #000000;
+        color: white;
+        transform: translateY(4px);
+        animation-duration: 1s;
+    }

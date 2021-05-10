@@ -1,0 +1,72 @@
+<html>
+
+<head>
+
+    <title>Simple Calculator</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>Simple Calculator</h1>
+
+
+    <form name="form" class="cal" action="index.html" method="POST">
+        <input type="text" name="ans" id="ans">
+        <br>
+        <br>
+
+
+        <input type="button" value="Clr" id="clr" onclick="form.ans.value=''" class="btn">
+
+        <input type="button" class="btn" id="del" value="Del" onclick="form.ans.value=form.ans.value.substring(0,form.ans.value.length*1-1)">
+
+        <input type="button" class="btn" value="/" onclick="form.ans.value+='/'">
+
+        <br>
+        <br>
+
+        <input type="button" class="btn" value="7" onclick="form.ans.value+='7'">
+        <input type="button" class="btn" value="8" onclick="form.ans.value+='8'">
+        <input type="button" class="btn" value="9" onclick="form.ans.value+='9'">
+
+        <input type="button" class="btn" value="*" onclick="form.ans.value+='*'">
+
+        <br>
+        <br>
+
+        <input type="button" class="btn" value="4" onclick="form.ans.value+='4'">
+        <input type="button" class="btn" value="5" onclick="form.ans.value+='5'">
+        <input type="button" class="btn" value="6" onclick="form.ans.value+='6'">
+
+        <input type="button" class="btn" value="-" onclick="form.ans.value+='-'">
+
+        <br>
+        <br>
+
+        <input type="button" class="btn" value="1" onclick="form.ans.value+='1'">
+        <input type="button" class="btn" value="2" onclick="form.ans.value+='2'">
+        <input type="button" class="btn" value="3" onclick="form.ans.value+='3'">
+
+        <input type="button" class="btn" value="+" onclick="form.ans.value+='+'">
+
+        <br>
+        <br>
+
+        <input type="button" class="btn" value="0" onclick="form.ans.value+='0'">
+
+        <input type="button" class="btn" value="." onclick="form.ans.value+='.'">
+
+        <input type="button" class="btn" value="Ans." id="equal" onclick="form.ans.value=eval(form.ans.value)">
+
+        <br>
+
+        <input type="button" class="footer" value="@mrhappyhere">
+    </form>
+
+    <h2>@mrhappyhere</h2>
+
+
+</body>
+
+</html>
