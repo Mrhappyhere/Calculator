@@ -8,3 +8,6 @@ https://mrhappyhere.github.io/Calculator/
 # Preview:-
 ![Image 1](https://user-images.githubusercontent.com/80676763/117726489-45776d00-b204-11eb-89ae-f804da10c455.jpg)
  
+# License and copyright
+© MrHappyhere
+Licensed under The [MIT License](LICENSE).
